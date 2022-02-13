@@ -1,5 +1,5 @@
 module.exports = {
-        TOKEN: 'OTM4NTIwNDg0NTYyMjE0OTYy.YfrfUA.CIcTVso9T8EMWFRYwn92awgZihU', //your discord bot token
+        TOKEN: '', //seu token aqui
         px: '-',
         playing: 'mf gostoso music',
 
@@ -7,14 +7,14 @@ module.exports = {
         DJ: {
             enabled: false, //se for usar o cargo de DJ meter um true aq.
             roleName: 'DJ', //nome do cargo de DJ
-            commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'skip', 'stop', 'volume'] //se mexer é gay
+            commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'skip', 'stop', 'volume'] //não mexa sem saber o que está fazendo
         },
         maxVol: 250, //Volume máximo.
-        loopMessage: false, //se mexer é gay
+        loopMessage: false, //não mexa sem saber o que está fazendo
         discordPlayer: {
             ytdlOptions: {
-                quality: 'highestaudio', //se mexer é gay
-                highWaterMark: 1 << 25 //se mexer é gay
+                quality: 'highestaudio', //não mexa sem saber o que está fazendo
+                highWaterMark: 1 << 25 //não mexa sem saber o que está fazendo
             }
         }
     }
