@@ -1,0 +1,20 @@
+{
+  "name": "music-bot",
+  "main": "main.js",
+  "author": "Matheus Filipe",
+  "description": "Bot de uso privado criado por Matheus Filipe. O mesmo foi compartilhado no github em forma de open-source.",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord-player": "^5.2.0",
+    "discord.js": "^13.4.0",
+    "ffmpeg-static": "^4.4.0",
+    "ms": "^3.0.0-canary.1",
+    "opusscript": "^0.0.8",
+    "express": "^4.17.2"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
